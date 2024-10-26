@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "category-recognition"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+pydantic-settings = "^2.6.0"
+pydantic = "^2.9.2"
+pandas = "^2.2.3"
+torch = "^2.5.0"
+transformers = "^4.46.0"
+scikit-learn = "^1.5.2"
+accelerate = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
